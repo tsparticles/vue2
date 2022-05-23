@@ -18,7 +18,7 @@
     "*.**": "prettier --check --ignore-unknown"
   },
   "dependencies": {
-    "core-js": "^3.19.3",
+    "core-js": "^3.22.6",
     "nuxt": "^2.15.8",
     "particles.vue": "^3.0.6",
     "tsparticles": "^2.0.6",
