@@ -6831,12 +6831,12 @@ parseurl@~1.3.3:
   resolved "https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
   integrity sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
 
-particles.vue@^3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/particles.vue/-/particles.vue-3.0.6.tgz#8f7752b79365740bf17ca6a879daf6ee76f11518"
-  integrity sha512-ZyEdB5/WgyXDgRuwCb5od1B4JaYF9bcJiRXlch25v/ACk1LEno4FQ6dc2IkQTNgGCHYNh6OW+TgcJMlQiEuZyA==
+particles.vue@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/particles.vue/-/particles.vue-3.1.0.tgz#a0b777b9b1bb1f51277f468987deda31c81afc4a"
+  integrity sha512-TjO3MHSbRhpWt08n3/V14L7GRJIQScsiAVJPGUC3rRKmXO3lKAZEC+LFUvTyWsfI19hR49kMkDiP9kE6P0NyVA==
   dependencies:
-    tsparticles-engine "^2.0.6"
+    tsparticles-engine "^2.1.0"
     vue-class-component "<8"
     vue-property-decorator "<10"
 
@@ -9090,7 +9090,7 @@ tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
-tsparticles-engine@^2.0.6, tsparticles-engine@^2.1.0:
+tsparticles-engine@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/tsparticles-engine/-/tsparticles-engine-2.1.0.tgz#72559b9ed57e01497c5bd7b08bc34ce50fdd694c"
   integrity sha512-hzqdFa1YXbmVxb5XXZd17OXLSjuH871Q9M//iOtPmyGe7nMgOxdAVCgF3/69KYCtQrMQFlulZdstIzya0lu5Yg==
