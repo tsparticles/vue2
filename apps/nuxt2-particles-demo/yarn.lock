@@ -6861,12 +6861,12 @@ parseurl@~1.3.3:
   resolved "https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
   integrity sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
 
-particles.vue@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/particles.vue/-/particles.vue-3.2.0.tgz#d86885fe1bbf00c5caf3b33580223be6bb9c7647"
-  integrity sha512-9EREquBrssdM49YIbV1l9zDWqVfIEe3CZXo6r2Qr0Ht62CX5OwZDhtSf7RF94bAIrAaXVkeFAPt4JZoD7igRJw==
+particles.vue@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/particles.vue/-/particles.vue-3.2.1.tgz#9f66fe232dbcfe3504c0dca4505690dc8453c4d9"
+  integrity sha512-2fFgwgZSvdyP408n4c5jFgP1+9QkHHessrzuCAlQ3OuRAtOu6xTddoaGSLLendc7C1WInINpp1GzMFwmHauFgg==
   dependencies:
-    tsparticles-engine "^2.2.0"
+    tsparticles-engine "^2.2.1"
     vue-class-component "<8"
     vue-property-decorator "<10"
 
@@ -9127,10 +9127,10 @@ tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
-tsparticles-engine@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/tsparticles-engine/-/tsparticles-engine-2.2.0.tgz#e16035679c7b7e5bf377cb0e6f50c92ec312720b"
-  integrity sha512-1kPvIMwcfsFTsEJKoNO/XhZq9l07DZRTwO3fetxD8U69orgRveJe32lqIrQQRDXXqoGD5jTM0j7MOrZueS/0AA==
+tsparticles-engine@^2.2.0, tsparticles-engine@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/tsparticles-engine/-/tsparticles-engine-2.2.1.tgz#0d1c501479161ba65a16212140dfd996c3c746aa"
+  integrity sha512-S1Rqxca4lxnMuVboxJbyIW/b8b+wRJJq7mmMS3wusM/01NzW/3OOyXFOcelFz9Ka6JJc7X+RUcv0u614BYWFgg==
 
 tsparticles-interaction-external-attract@^2.2.0:
   version "2.2.0"
