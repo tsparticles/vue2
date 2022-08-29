@@ -21,7 +21,7 @@
     "core-js": "^3.25.0",
     "nuxt": "^2.15.8",
     "particles.vue": "^3.2.4",
-    "tsparticles": "^2.2.3",
+    "tsparticles": "^2.2.4",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10",
