@@ -32,7 +32,7 @@ importers:
       eslint-plugin-vue: ^9.8.0
       lint-staged: ^13.1.0
       nuxt: ^2.15.8
-      postcss-loader: ^3.0.0
+      postcss-loader: ^7.0.0
       prettier: ^2.8.1
       tsparticles: ^2.7.1
       vue: ^2.7.14
@@ -62,7 +62,7 @@ importers:
       eslint-plugin-nuxt: 4.0.0_eslint@8.30.0
       eslint-plugin-vue: 9.8.0_eslint@8.30.0
       lint-staged: 13.1.0
-      postcss-loader: 3.0.0
+      postcss-loader: 7.0.2_webpack@4.46.0
       prettier: 2.8.1
       vue-loader: 15.10.1_m3zqdgsctidifi2g72yf5jq5cy
       webpack: 4.46.0
@@ -5453,6 +5453,7 @@ packages:
 
   /bindings/1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
+    requiresBuild: true
     dependencies:
       file-uri-to-path: 1.0.0
     optional: true
@@ -8572,6 +8573,7 @@ packages:
 
   /file-uri-to-path/1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     optional: true
 
   /filelist/1.0.4:
@@ -11140,6 +11142,7 @@ packages:
 
   /nan/2.17.0:
     resolution: {integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==}
+    requiresBuild: true
     optional: true
 
   /nanoid/3.3.4:
@@ -12472,6 +12475,19 @@ packages:
       postcss: 8.4.20
       semver: 7.3.8
       webpack: 5.75.0
+    dev: true
+
+  /postcss-loader/7.0.2_webpack@4.46.0:
+    resolution: {integrity: sha512-fUJzV/QH7NXUAqV8dWJ9Lg4aTkDCezpTS5HgJ2DvqznexTbSTxgi/dTECvTZ15BwKTtk8G/bqI/QTu2HPd3ZCg==}
+    engines: {node: '>= 14.15.0'}
+    peerDependencies:
+      postcss: ^7.0.0 || ^8.0.1
+      webpack: ^5.0.0
+    dependencies:
+      cosmiconfig: 7.1.0
+      klona: 2.0.5
+      semver: 7.3.8
+      webpack: 4.46.0
     dev: true
 
   /postcss-logical/3.0.0:
