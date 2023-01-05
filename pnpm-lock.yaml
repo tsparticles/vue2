@@ -86,7 +86,7 @@ importers:
       eslint-config-prettier: ^8.5.0
       postcss: ^8.4.20
       prettier: ^2.8.1
-      rollup: ^2.79.1
+      rollup: ^3.0.0
       rollup-plugin-terser: ^7.0.2
       rollup-plugin-typescript: ^1.0.1
       rollup-plugin-typescript2: ^0.34.1
@@ -113,9 +113,9 @@ importers:
       '@babel/core': 7.20.7
       '@babel/plugin-proposal-class-properties': 7.18.6_@babel+core@7.20.7
       '@babel/plugin-proposal-decorators': 7.20.7_@babel+core@7.20.7
-      '@rollup/plugin-json': 6.0.0_rollup@2.79.1
-      '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
-      '@rollup/plugin-replace': 5.0.2_rollup@2.79.1
+      '@rollup/plugin-json': 6.0.0_rollup@3.9.1
+      '@rollup/plugin-node-resolve': 15.0.1_rollup@3.9.1
+      '@rollup/plugin-replace': 5.0.2_rollup@3.9.1
       '@typescript-eslint/eslint-plugin': 5.47.1_txmweb6yn7coi7nfrp22gpyqmy
       '@typescript-eslint/parser': 5.47.1_lzzuuodtsqwxnvqeq4g4likcqa
       '@vue/cli-plugin-babel': 5.0.8_jgtid2kttez32lmh2k7ifkwceu
@@ -126,10 +126,10 @@ importers:
       eslint-config-prettier: 8.5.0_eslint@8.30.0
       postcss: 8.4.20
       prettier: 2.8.1
-      rollup: 2.79.1
-      rollup-plugin-terser: 7.0.2_rollup@2.79.1
+      rollup: 3.9.1
+      rollup-plugin-terser: 7.0.2_rollup@3.9.1
       rollup-plugin-typescript: 1.0.1_mhocex6fqwakw35tk2klboonyu
-      rollup-plugin-typescript2: 0.34.1_ntuob3xud5wukob6phfmz2mbyy
+      rollup-plugin-typescript2: 0.34.1_esmavzhadgk2idmxtiodxm33ma
       rollup-plugin-vue: 5.1.9_f5iv5tdq5eefnlpdsfwn2yhws4
       tslib: 2.4.1
       typescript: 4.9.4
@@ -151,7 +151,7 @@ importers:
       postcss: ^8.4.20
       prettier: ^2.8.1
       pug: ^3.0.2
-      rollup: ^2.79.1
+      rollup: ^3.0.0
       rollup-plugin-terser: ^7.0.2
       rollup-plugin-typescript: ^1.0.1
       rollup-plugin-typescript2: ^0.34.1
@@ -172,8 +172,8 @@ importers:
       '@babel/core': 7.20.7
       '@babel/plugin-proposal-class-properties': 7.18.6_@babel+core@7.20.7
       '@babel/plugin-proposal-decorators': 7.20.7_@babel+core@7.20.7
-      '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
-      '@rollup/plugin-replace': 5.0.2_rollup@2.79.1
+      '@rollup/plugin-node-resolve': 15.0.1_rollup@3.9.1
+      '@rollup/plugin-replace': 5.0.2_rollup@3.9.1
       '@tsparticles/prettier-config': 1.5.0_prettier@2.8.1
       '@vue/cli-plugin-babel': 5.0.8_jgtid2kttez32lmh2k7ifkwceu
       '@vue/cli-plugin-typescript': 5.0.8_3vycy3xhnn4nwkrb7jl4ixwr5y
@@ -182,10 +182,10 @@ importers:
       postcss: 8.4.20
       prettier: 2.8.1
       pug: 3.0.2
-      rollup: 2.79.1
-      rollup-plugin-terser: 7.0.2_rollup@2.79.1
+      rollup: 3.9.1
+      rollup-plugin-terser: 7.0.2_rollup@3.9.1
       rollup-plugin-typescript: 1.0.1_mhocex6fqwakw35tk2klboonyu
-      rollup-plugin-typescript2: 0.34.1_ntuob3xud5wukob6phfmz2mbyy
+      rollup-plugin-typescript2: 0.34.1_esmavzhadgk2idmxtiodxm33ma
       rollup-plugin-vue: 5.1.9_lpj6e446z4zucnpnlzo2zq3bli
       ssri: 10.0.1
       tslib: 2.4.1
@@ -208,7 +208,7 @@ importers:
       postcss: ^8.4.20
       prettier: ^2.8.1
       pug: ^3.0.2
-      rollup: ^2.79.1
+      rollup: ^3.0.0
       rollup-plugin-terser: ^7.0.2
       rollup-plugin-typescript: ^1.0.1
       rollup-plugin-typescript2: ^0.34.1
@@ -229,8 +229,8 @@ importers:
       '@babel/core': 7.20.7
       '@babel/plugin-proposal-class-properties': 7.18.6_@babel+core@7.20.7
       '@babel/plugin-proposal-decorators': 7.20.7_@babel+core@7.20.7
-      '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
-      '@rollup/plugin-replace': 5.0.2_rollup@2.79.1
+      '@rollup/plugin-node-resolve': 15.0.1_rollup@3.9.1
+      '@rollup/plugin-replace': 5.0.2_rollup@3.9.1
       '@tsparticles/prettier-config': 1.5.0_prettier@2.8.1
       '@vue/cli-plugin-babel': 5.0.8_jgtid2kttez32lmh2k7ifkwceu
       '@vue/cli-plugin-typescript': 5.0.8_3vycy3xhnn4nwkrb7jl4ixwr5y
@@ -239,10 +239,10 @@ importers:
       postcss: 8.4.20
       prettier: 2.8.1
       pug: 3.0.2
-      rollup: 2.79.1
-      rollup-plugin-terser: 7.0.2_rollup@2.79.1
+      rollup: 3.9.1
+      rollup-plugin-terser: 7.0.2_rollup@3.9.1
       rollup-plugin-typescript: 1.0.1_mhocex6fqwakw35tk2klboonyu
-      rollup-plugin-typescript2: 0.34.1_ntuob3xud5wukob6phfmz2mbyy
+      rollup-plugin-typescript2: 0.34.1_esmavzhadgk2idmxtiodxm33ma
       rollup-plugin-vue: 5.1.9_lpj6e446z4zucnpnlzo2zq3bli
       ssri: 10.0.1
       tslib: 2.4.1
@@ -265,7 +265,7 @@ importers:
       postcss: ^8.4.20
       prettier: ^2.8.1
       pug: ^3.0.2
-      rollup: ^2.79.1
+      rollup: ^3.0.0
       rollup-plugin-terser: ^7.0.2
       rollup-plugin-typescript: ^1.0.1
       rollup-plugin-typescript2: ^0.34.1
@@ -286,8 +286,8 @@ importers:
       '@babel/core': 7.20.7
       '@babel/plugin-proposal-class-properties': 7.18.6_@babel+core@7.20.7
       '@babel/plugin-proposal-decorators': 7.20.7_@babel+core@7.20.7
-      '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
-      '@rollup/plugin-replace': 5.0.2_rollup@2.79.1
+      '@rollup/plugin-node-resolve': 15.0.1_rollup@3.9.1
+      '@rollup/plugin-replace': 5.0.2_rollup@3.9.1
       '@tsparticles/prettier-config': 1.5.0_prettier@2.8.1
       '@vue/cli-plugin-babel': 5.0.8_jgtid2kttez32lmh2k7ifkwceu
       '@vue/cli-plugin-typescript': 5.0.8_3vycy3xhnn4nwkrb7jl4ixwr5y
@@ -296,10 +296,10 @@ importers:
       postcss: 8.4.20
       prettier: 2.8.1
       pug: 3.0.2
-      rollup: 2.79.1
-      rollup-plugin-terser: 7.0.2_rollup@2.79.1
+      rollup: 3.9.1
+      rollup-plugin-terser: 7.0.2_rollup@3.9.1
       rollup-plugin-typescript: 1.0.1_mhocex6fqwakw35tk2klboonyu
-      rollup-plugin-typescript2: 0.34.1_ntuob3xud5wukob6phfmz2mbyy
+      rollup-plugin-typescript2: 0.34.1_esmavzhadgk2idmxtiodxm33ma
       rollup-plugin-vue: 5.1.9_lpj6e446z4zucnpnlzo2zq3bli
       ssri: 10.0.1
       tslib: 2.4.1
@@ -3293,7 +3293,7 @@ packages:
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
 
-  /@rollup/plugin-json/6.0.0_rollup@2.79.1:
+  /@rollup/plugin-json/6.0.0_rollup@3.9.1:
     resolution: {integrity: sha512-i/4C5Jrdr1XUarRhVu27EEwjt4GObltD7c+MkCIpO2QIbojw8MUs+CCTqOphQi3Qtg1FLmYt+l+6YeoIf51J7w==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -3302,11 +3302,11 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@2.79.1
-      rollup: 2.79.1
+      '@rollup/pluginutils': 5.0.2_rollup@3.9.1
+      rollup: 3.9.1
     dev: true
 
-  /@rollup/plugin-node-resolve/15.0.1_rollup@2.79.1:
+  /@rollup/plugin-node-resolve/15.0.1_rollup@3.9.1:
     resolution: {integrity: sha512-ReY88T7JhJjeRVbfCyNj+NXAG3IIsVMsX9b5/9jC98dRP8/yxlZdz7mHZbHk5zHr24wZZICS5AcXsFZAXYUQEg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -3315,16 +3315,16 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@2.79.1
+      '@rollup/pluginutils': 5.0.2_rollup@3.9.1
       '@types/resolve': 1.20.2
       deepmerge: 4.2.2
       is-builtin-module: 3.2.0
       is-module: 1.0.0
       resolve: 1.22.1
-      rollup: 2.79.1
+      rollup: 3.9.1
     dev: true
 
-  /@rollup/plugin-replace/5.0.2_rollup@2.79.1:
+  /@rollup/plugin-replace/5.0.2_rollup@3.9.1:
     resolution: {integrity: sha512-M9YXNekv/C/iHHK+cvORzfRYfPbq0RDD8r0G+bMiTXjNGKulPnCT9O3Ss46WfhI6ZOCgApOP7xAdmCQJ+U2LAA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -3333,9 +3333,9 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@2.79.1
+      '@rollup/pluginutils': 5.0.2_rollup@3.9.1
       magic-string: 0.27.0
-      rollup: 2.79.1
+      rollup: 3.9.1
     dev: true
 
   /@rollup/pluginutils/4.2.1:
@@ -3346,7 +3346,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@rollup/pluginutils/5.0.2_rollup@2.79.1:
+  /@rollup/pluginutils/5.0.2_rollup@3.9.1:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -3358,7 +3358,7 @@ packages:
       '@types/estree': 1.0.0
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 2.79.1
+      rollup: 3.9.1
     dev: true
 
   /@sideway/address/4.1.4:
@@ -5453,6 +5453,7 @@ packages:
 
   /bindings/1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
+    requiresBuild: true
     dependencies:
       file-uri-to-path: 1.0.0
     optional: true
@@ -8572,6 +8573,7 @@ packages:
 
   /file-uri-to-path/1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     optional: true
 
   /filelist/1.0.4:
@@ -11140,6 +11142,7 @@ packages:
 
   /nan/2.17.0:
     resolution: {integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==}
+    requiresBuild: true
     optional: true
 
   /nanoid/3.3.4:
@@ -13807,7 +13810,7 @@ packages:
       hash-base: 3.1.0
       inherits: 2.0.4
 
-  /rollup-plugin-terser/7.0.2_rollup@2.79.1:
+  /rollup-plugin-terser/7.0.2_rollup@3.9.1:
     resolution: {integrity: sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==}
     deprecated: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
     peerDependencies:
@@ -13815,7 +13818,7 @@ packages:
     dependencies:
       '@babel/code-frame': 7.18.6
       jest-worker: 26.6.2
-      rollup: 2.79.1
+      rollup: 3.9.1
       serialize-javascript: 4.0.0
       terser: 5.16.1
     dev: true
@@ -13833,7 +13836,7 @@ packages:
       typescript: 4.9.4
     dev: true
 
-  /rollup-plugin-typescript2/0.34.1_ntuob3xud5wukob6phfmz2mbyy:
+  /rollup-plugin-typescript2/0.34.1_esmavzhadgk2idmxtiodxm33ma:
     resolution: {integrity: sha512-P4cHLtGikESmqi1CA+tdMDUv8WbQV48mzPYt77TSTOPJpERyZ9TXdDgjSDix8Fkqce6soYz3+fa4lrC93IEkcw==}
     peerDependencies:
       rollup: '>=1.26.3'
@@ -13842,7 +13845,7 @@ packages:
       '@rollup/pluginutils': 4.2.1
       find-cache-dir: 3.3.2
       fs-extra: 10.1.0
-      rollup: 2.79.1
+      rollup: 3.9.1
       semver: 7.3.8
       tslib: 2.4.1
       typescript: 4.9.4
@@ -14000,9 +14003,9 @@ packages:
       estree-walker: 0.6.1
     dev: true
 
-  /rollup/2.79.1:
-    resolution: {integrity: sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==}
-    engines: {node: '>=10.0.0'}
+  /rollup/3.9.1:
+    resolution: {integrity: sha512-GswCYHXftN8ZKGVgQhTFUJB/NBXxrRGgO2NCy6E8s1rwEJ4Q9/VttNqcYfEvx4dTo4j58YqdC3OVztPzlKSX8w==}
+    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
