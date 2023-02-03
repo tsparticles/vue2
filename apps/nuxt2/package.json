@@ -19,7 +19,7 @@
   "dependencies": {
     "@tsparticles/vue2": "^2.8.0",
     "core-js": "^3.27.0",
-    "nuxt": "^2.15.8",
+    "nuxt": "^3.0.0",
     "tsparticles": "^2.8.0",
     "vue": "^2.7.14",
     "vue-server-renderer": "^2.7.14",
