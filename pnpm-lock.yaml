@@ -21,7 +21,7 @@ importers:
       '@nuxt/webpack': 2.15.8
       '@nuxtjs/eslint-config': ^12.0.0
       '@nuxtjs/eslint-module': ^3.1.0
-      babel-loader: ^8.2.2
+      babel-loader: ^9.0.0
       consola: ^2.15.3
       core-js: ^3.27.0
       css-loader: ^4.3.0
@@ -54,7 +54,7 @@ importers:
       '@nuxt/webpack': 2.15.8_vue@2.7.14
       '@nuxtjs/eslint-config': 12.0.0_eslint@8.30.0
       '@nuxtjs/eslint-module': 3.1.0_p73rwkjr2vx7pz56loq5ayrlk4
-      babel-loader: 8.3.0_56iglfotwsmz3lyjkiqdlpwsai
+      babel-loader: 9.1.2_56iglfotwsmz3lyjkiqdlpwsai
       consola: 2.15.3
       css-loader: 4.3.0_webpack@4.46.0
       eslint: 8.30.0
@@ -80,7 +80,7 @@ importers:
       '@vue/cli-plugin-babel': ^5.0.8
       '@vue/cli-plugin-typescript': ^5.0.8
       '@vue/cli-service': ^5.0.8
-      babel-loader: ^8
+      babel-loader: ^9.0.0
       eslint: ^8.32.0
       eslint-config-prettier: ^8.6.0
       postcss: ^8.4.20
@@ -121,7 +121,7 @@ importers:
       '@vue/cli-plugin-babel': 5.0.8_jgtid2kttez32lmh2k7ifkwceu
       '@vue/cli-plugin-typescript': 5.0.8_344rzvv6k4lk4xftsjiu4uuvwi
       '@vue/cli-service': 5.0.8_xkcetcj6hv4sgyq4i5psilihte
-      babel-loader: 8.3.0_56iglfotwsmz3lyjkiqdlpwsai
+      babel-loader: 9.1.2_56iglfotwsmz3lyjkiqdlpwsai
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       postcss: 8.4.20
@@ -5346,6 +5346,19 @@ packages:
       webpack: 5.75.0
     dev: true
 
+  /babel-loader/9.1.2_56iglfotwsmz3lyjkiqdlpwsai:
+    resolution: {integrity: sha512-mN14niXW43tddohGl8HPu5yfQq70iUThvFL/4QzESA7GcZoC0eVOhvWdQ8+3UlSjaDE9MVtsW9mxDY07W7VpVA==}
+    engines: {node: '>= 14.15.0'}
+    peerDependencies:
+      '@babel/core': ^7.12.0
+      webpack: '>=5'
+    dependencies:
+      '@babel/core': 7.20.7
+      find-cache-dir: 3.3.2
+      schema-utils: 4.0.0
+      webpack: 4.46.0
+    dev: true
+
   /babel-plugin-dynamic-import-node/2.3.3:
     resolution: {integrity: sha512-jZVI+s9Zg3IqA/kdi0i6UDCybUI3aSBLnglhYbSSjKlV7yF1F/5LWv8MakQmvYpnbJDS6fcBL2KzHSxNCMtWSQ==}
     dependencies:
@@ -5448,6 +5461,7 @@ packages:
 
   /bindings/1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
+    requiresBuild: true
     dependencies:
       file-uri-to-path: 1.0.0
     optional: true
@@ -8634,6 +8648,7 @@ packages:
 
   /file-uri-to-path/1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     optional: true
 
   /filelist/1.0.4:
@@ -11202,6 +11217,7 @@ packages:
 
   /nan/2.17.0:
     resolution: {integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==}
+    requiresBuild: true
     optional: true
 
   /nanoid/3.3.4:
