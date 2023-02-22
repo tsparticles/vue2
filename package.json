@@ -1,5 +1,5 @@
 {
-  "name": "@tsparticles/vue2-workspace",
+  "name": "vue2-particles-workspace",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,6 @@
   },
   "workspaces": [
     "apps/*",
-    "components/*",
-    "components-legacy/*"
+    "components/*"
   ]
 }

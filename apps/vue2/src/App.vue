@@ -11,7 +11,7 @@ import type { Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
 import { basic } from "tsparticles-demo-configs";
 
-import Particles from "@tsparticles/vue2";
+import Particles from "vue2-particles";
 
 Vue.use(Particles);
 

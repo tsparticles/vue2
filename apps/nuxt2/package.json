@@ -1,12 +1,12 @@
 {
-  "name": "@tsparticles/nuxt2-demo",
-  "version": "1.0.0",
+  "name": "nuxt2-particles-demo",
+  "version": "2.9.3",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
+    "dev": "env NODE_OPTIONS=--openssl-legacy-provider nuxt",
+    "build": "env NODE_OPTIONS=--openssl-legacy-provider nuxt build",
+    "start": "env NODE_OPTIONS=--openssl-legacy-provider nuxt start",
+    "generate": "env NODE_OPTIONS=--openssl-legacy-provider nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
     "lint": "yarn lint:js && yarn lint:prettier",
@@ -17,7 +17,7 @@
     "*.**": "prettier --check --ignore-unknown"
   },
   "dependencies": {
-    "@tsparticles/vue2": "^2.7.1",
+    "vue2-particles": "^2.9.3",
     "core-js": "^3.27.0",
     "nuxt": "^2.15.8",
     "tsparticles": "^2.7.1",

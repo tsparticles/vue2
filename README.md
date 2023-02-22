@@ -1,8 +1,8 @@
 [![banner](https://particles.js.org/images/banner3.png)](https://particles.js.org)
 
-# @tsparticles/vue2
+# vue2-particles
 
-[![npm](https://img.shields.io/npm/v/@tsparticles/vue2)](https://www.npmjs.com/package/@tsparticles/vue2) [![npm](https://img.shields.io/npm/dm/@tsparticles/vue2)](https://www.npmjs.com/package/@tsparticles/vue2) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
+[![npm](https://img.shields.io/npm/v/vue2-particles)](https://www.npmjs.com/package/vue2-particles) [![npm](https://img.shields.io/npm/dm/vue2-particles)](https://www.npmjs.com/package/vue2-particles) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
 
 Official [tsParticles](https://github.com/matteobruni/tsparticles) VueJS component
 
@@ -13,13 +13,13 @@ Official [tsParticles](https://github.com/matteobruni/tsparticles) VueJS compone
 ## Installation
 
 ```shell script
-yarn add @tsparticles/vue2
+yarn add vue2-particles
 ```
 
 ## Usage
 
 ```javascript
-import Particles from "@tsparticles/vue2";
+import Particles from "vue2-particles";
 
 Vue.use(Particles);
 ```
@@ -141,7 +141,7 @@ If TypeScript returns error while importing/using Particles plugin try adding th
 code:
 
 ```typescript
-declare module "@tsparticles/vue2";
+declare module "vue2-particles";
 ```
 
 ## Demos
