@@ -41,7 +41,7 @@
     "lint-staged": "^13.1.0",
     "postcss-loader": "^3.0.0",
     "prettier": "^2.8.1",
-    "vue-loader": "^15.9.7",
+    "vue-loader": "^17.0.0",
     "webpack": "^4.46.0"
   }
 }
