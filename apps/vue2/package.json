@@ -9,7 +9,7 @@
   "main": "lib/vue.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matteobruni/tsparticles.git"
+    "url": "git+https://github.com/tsparticles/vue2.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -18,7 +18,7 @@
     "clean": "rm -rf dist/*"
   },
   "bugs": {
-    "url": "https://github.com/matteobruni/tsparticles/issues"
+    "url": "https://github.com/tsparticles/vue2/issues"
   },
   "dependencies": {
     "tsparticles": "^2.9.3",

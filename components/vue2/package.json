@@ -70,9 +70,9 @@
     "unpkg": "dist/vue2-particles.min.js",
     "jsdelivr": "dist/vue2-particles.min.js",
     "repository": {
-        "url": "https://github.com/matteobruni/tsparticles",
+        "url": "https://github.com/tsparticles/vue2",
         "type": "git",
-        "directory": "components/vue"
+        "directory": "components/vue2"
     },
     "author": "Matteo Bruni <matteo.bruni@me.com>",
     "license": "MIT",
@@ -80,7 +80,7 @@
         "dist"
     ],
     "bugs": {
-        "url": "https://github.com/matteobruni/tsparticles/issues"
+        "url": "https://github.com/tsparticles/vue2/issues"
     },
     "homepage": "https://particles.js.org",
     "funding": [
