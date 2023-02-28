@@ -112,7 +112,7 @@
         "@vue/cli-plugin-babel": "~5.0.8",
         "@vue/cli-plugin-typescript": "~5.0.8",
         "@vue/cli-service": "~5.0.8",
-        "is-svg": "^4.3.2",
+        "is-svg": "^5.0.0",
         "postcss": "^8.4.20",
         "prettier": "^2.8.4",
         "pug": "^3.0.2",
