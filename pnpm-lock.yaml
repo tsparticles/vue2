@@ -63,8 +63,8 @@ importers:
         specifier: ^2.15.3
         version: 2.15.3
       css-loader:
-        specifier: ^4.3.0
-        version: 4.3.0(webpack@4.46.0)
+        specifier: ^6.0.0
+        version: 6.7.3(webpack@4.46.0)
       eslint:
         specifier: ^8.30.0
         version: 8.30.0
@@ -6811,6 +6811,23 @@ packages:
       schema-utils: 2.7.1
       semver: 7.3.8
       webpack: 4.46.0
+
+  /css-loader@6.7.3(webpack@4.46.0):
+    resolution: {integrity: sha512-qhOH1KlBMnZP8FzRO6YCH9UHXQhVMcEGLyNdb7Hv2cpcmJbW0YrddO+tG1ab5nT41KpHIYGsbeHqxB9xPu1pKQ==}
+    engines: {node: '>= 12.13.0'}
+    peerDependencies:
+      webpack: ^5.0.0
+    dependencies:
+      icss-utils: 5.1.0(postcss@8.4.20)
+      postcss: 8.4.20
+      postcss-modules-extract-imports: 3.0.0(postcss@8.4.20)
+      postcss-modules-local-by-default: 4.0.0(postcss@8.4.20)
+      postcss-modules-scope: 3.0.0(postcss@8.4.20)
+      postcss-modules-values: 4.0.0(postcss@8.4.20)
+      postcss-value-parser: 4.2.0
+      semver: 7.3.8
+      webpack: 4.46.0
+    dev: true
 
   /css-loader@6.7.3(webpack@5.75.0):
     resolution: {integrity: sha512-qhOH1KlBMnZP8FzRO6YCH9UHXQhVMcEGLyNdb7Hv2cpcmJbW0YrddO+tG1ab5nT41KpHIYGsbeHqxB9xPu1pKQ==}
