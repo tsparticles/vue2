@@ -1,6 +1,6 @@
 {
   "name": "nuxt2-particles-demo",
-  "version": "2.9.3",
+  "version": "2.10.0",
   "private": true,
   "scripts": {
     "dev": "env NODE_OPTIONS=--openssl-legacy-provider nuxt",
@@ -17,13 +17,13 @@
     "*.**": "prettier --check --ignore-unknown"
   },
   "dependencies": {
-    "vue2-particles": "^2.9.3",
     "core-js": "^3.30.2",
     "nuxt": "^2.16.3",
     "tsparticles": "^2.10.1",
     "vue": "^2.7.14",
     "vue-server-renderer": "^2.7.14",
-    "vue-template-compiler": "^2.7.14"
+    "vue-template-compiler": "^2.7.14",
+    "vue2-particles": "^2.10.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.1",

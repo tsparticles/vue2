@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.10.0 (2023-06-04)
+
+**Note:** Version bump only for package vue2-particles-demo
+
+
+
+
+
 ## [2.9.3](https://github.com/matteobruni/tsparticles/compare/vue2-particles-demo@2.9.2...vue2-particles-demo@2.9.3) (2023-02-12)
 
 **Note:** Version bump only for package vue2-particles-demo

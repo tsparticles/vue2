@@ -42,7 +42,7 @@ importers:
         specifier: ^2.7.14
         version: 2.7.14
       vue2-particles:
-        specifier: ^2.9.3
+        specifier: ^2.10.0
         version: link:../../components/vue2
     devDependencies:
       '@babel/core':
@@ -130,7 +130,7 @@ importers:
         specifier: ^9.1.2
         version: 9.1.2(vue-class-component@7.2.6)(vue@2.7.14)
       vue2-particles:
-        specifier: ^2.9.3
+        specifier: ^2.10.0
         version: link:../../components/vue2
     devDependencies:
       '@babel/core':
