@@ -1,4 +1,4 @@
-# nuxt2-particles-demo
+# nuxt2-demo
 
 ## Build Setup
 
