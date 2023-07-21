@@ -29,7 +29,7 @@ Vue.use(Particles);
 ```html
 <template>
     <div id="app">
-        <Particles
+        <vue-particles
             id="tsparticles"
             :particlesInit="particlesInit"
             :particlesLoaded="particlesLoaded"
@@ -38,7 +38,7 @@ Vue.use(Particles);
 
         <!-- or -->
 
-        <Particles
+        <vue-particles
             id="tsparticles"
             :particlesInit="particlesInit"
             :particlesLoaded="particlesLoaded"

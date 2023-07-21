@@ -2,8 +2,9 @@ import Vue from "vue";
 import particles from "./Particles.vue";
 
 const VueParticles = {
-    install: (vue: typeof Vue, options: unknown) => {
+    install: (vue: typeof Vue) => {
         vue.component("Particles", particles);
+        vue.component("vue-particles", particles);
     },
 };
 
