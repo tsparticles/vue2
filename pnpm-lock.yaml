@@ -28,7 +28,7 @@ importers:
         version: 3.32.0
       nuxt:
         specifier: ^2.17.1
-        version: 2.17.1(consola@3.2.2)(typescript@5.1.6)(vue@2.7.14)
+        version: 2.17.1(consola@3.2.3)(typescript@5.1.6)(vue@2.7.14)
       tsparticles:
         specifier: ^2.12.0
         version: 2.12.0
@@ -45,7 +45,7 @@ importers:
         specifier: ^2.7.14
         version: 2.7.14
       vue2-particles:
-        specifier: ^2.11.0
+        specifier: ^2.12.0
         version: link:../../components/vue2
     devDependencies:
       '@babel/core':
@@ -118,7 +118,7 @@ importers:
         specifier: ^9.1.2
         version: 9.1.2(vue-class-component@7.2.6)(vue@2.7.14)
       vue2-particles:
-        specifier: ^2.11.0
+        specifier: ^2.12.0
         version: link:../../components/vue2
     devDependencies:
       '@babel/core':
@@ -3095,14 +3095,14 @@ packages:
       - supports-color
     dev: false
 
-  /@nuxt/components@2.2.1(consola@3.2.2):
+  /@nuxt/components@2.2.1(consola@3.2.3):
     resolution: {integrity: sha512-r1LHUzifvheTnJtYrMuA+apgsrEJbxcgFKIimeXKb+jl8TnPWdV3egmrxBCaDJchrtY/wmHyP47tunsft7AWwg==}
     peerDependencies:
       consola: '*'
     dependencies:
       chalk: 4.1.2
       chokidar: 3.5.3
-      consola: 3.2.2
+      consola: 3.2.3
       glob: 7.2.3
       globby: 11.1.0
       scule: 0.2.1
@@ -7086,6 +7086,7 @@ packages:
   /consola@3.2.2:
     resolution: {integrity: sha512-r921u0vbF4lQsoIqYvSSER+yZLPQGijOHrYcWoCNVNBZmn/bRR+xT/DgerTze/nLD9TTGzdDa378TVhx7RDOYg==}
     engines: {node: ^14.18.0 || >=16.10.0}
+    dev: true
 
   /consola@3.2.3:
     resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
@@ -12547,7 +12548,7 @@ packages:
     dependencies:
       boolbase: 1.0.0
 
-  /nuxt@2.17.1(consola@3.2.2)(typescript@5.1.6)(vue@2.7.14):
+  /nuxt@2.17.1(consola@3.2.3)(typescript@5.1.6)(vue@2.7.14):
     resolution: {integrity: sha512-II27v3nRmqsNMT6tNRIodlRPCuIO8RF6NrfsLh7MX0UVI7//HlEG54ivWzxWB2rfqBTDSRxrETPH7NGE+m1H7A==}
     hasBin: true
     requiresBuild: true
@@ -12555,7 +12556,7 @@ packages:
       '@nuxt/babel-preset-app': 2.17.1(vue@2.7.14)
       '@nuxt/builder': 2.17.1(typescript@5.1.6)(vue@2.7.14)
       '@nuxt/cli': 2.17.1
-      '@nuxt/components': 2.2.1(consola@3.2.2)
+      '@nuxt/components': 2.2.1(consola@3.2.3)
       '@nuxt/config': 2.17.1
       '@nuxt/core': 2.17.1
       '@nuxt/generator': 2.17.1
