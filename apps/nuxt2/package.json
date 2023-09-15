@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "pnpm run lintfix && nuxt build",
-    "build:ci": "pnpm run list && nuxt build",
+    "build:ci": "pnpm run lint && nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
