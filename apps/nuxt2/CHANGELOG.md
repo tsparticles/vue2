@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package nuxt2-demo
 
-
-
-
-
 # 1.1.0 (2023-07-14)
 
 **Note:** Version bump only for package nuxt2-demo
