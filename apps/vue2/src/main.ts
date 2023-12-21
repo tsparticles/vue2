@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Particles from "vue2-particles";
+import Particles from "@tsparticles/vue2";
 
 Vue.config.productionTip = false
 

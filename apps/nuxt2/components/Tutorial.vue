@@ -75,7 +75,7 @@
           >. Have fun!
         </p>
       </div>
-      <Particles
+      <vue-particles
         id="tsparticles"
         :options="options"
         :particles-init="particlesInit"

@@ -5,8 +5,7 @@
 <script lang="ts">
 import "tslib";
 import { Component, Prop } from "vue-property-decorator";
-import { tsParticles } from "tsparticles-engine";
-import type { Container, ISourceOptions, Engine } from "tsparticles-engine";
+import { type Container, type ISourceOptions, type Engine, tsParticles } from "@tsparticles/engine";
 import Vue from "vue";
 
 export type IParticlesProps = ISourceOptions;
@@ -39,9 +38,7 @@ export default class Particles extends Vue {
                 }
             };
 
-            const container = await (this.url
-                ? tsParticles.loadJSON(this.id, this.url)
-                : tsParticles.load(this.id, this.options ?? {}));
+            const container = await tsParticles.load({ id: this.id, options: this.options ?? {}, url: this.url });
 
             cb(container);
         });

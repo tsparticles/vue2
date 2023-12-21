@@ -7,9 +7,9 @@
 
 <script lang="ts">
 import { Vue } from "vue-property-decorator";
-import type { Engine } from "tsparticles-engine";
+import { type Engine } from "@tsparticles/engine";
 import { loadFull } from "tsparticles";
-import configs from "tsparticles-demo-configs";
+import configs from "@tsparticles/configs";
 
 export default class App extends Vue {
   options = configs.basic;
