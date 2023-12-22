@@ -20,8 +20,16 @@ yarn add @tsparticles/vue2
 
 ```javascript
 import Particles from "@tsparticles/vue2";
+//import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
+import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
 
-Vue.use(Particles);
+Vue.use(Particles, {
+    init: async (engine) => {
+        // await loadFull(engine);
+        await loadSlim(engine);
+
+    }
+});
 ```
 
 ### Demo config
@@ -31,7 +39,6 @@ Vue.use(Particles);
     <div id="app">
         <vue-particles
             id="tsparticles"
-            :particlesInit="particlesInit"
             :particlesLoaded="particlesLoaded"
             url="http://foo.bar/particles.json"
         />
@@ -40,7 +47,6 @@ Vue.use(Particles);
 
         <vue-particles
             id="tsparticles"
-            :particlesInit="particlesInit"
             :particlesLoaded="particlesLoaded"
             :options="{
                     background: {
@@ -121,14 +127,6 @@ Vue.use(Particles);
 ```
 
 ```javascript
-//import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
-import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
-
-const particlesInit = async engine => {
-    //await loadFull(engine);
-    await loadSlim(engine);
-};
-
 const particlesLoaded = async container => {
     console.log("Particles container loaded", container);
 };
