@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2023-12-22)
+
+
+### Features
+
+* improving init function for v3 ([24a83a0](https://github.com/tsparticles/vue2/commit/24a83a043c552dad4fa42ced026367698fe73da3))
+* preparing v3 ([7d7b0b9](https://github.com/tsparticles/vue2/commit/7d7b0b9e78894a19ce9e064c1ea05260f1d7e4e8))
+
+
+
+
+
 # [2.12.0](https://github.com/tsparticles/vue2/compare/vue2-particles@2.11.0...vue2-particles@2.12.0) (2023-08-04)
 
 **Note:** Version bump only for package vue2-particles
