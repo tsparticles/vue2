@@ -24,11 +24,10 @@ import Particles from "@tsparticles/vue2";
 import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
 
 Vue.use(Particles, {
-    init: async (engine) => {
+    init: async engine => {
         // await loadFull(engine);
         await loadSlim(engine);
-
-    }
+    },
 });
 ```
 
@@ -37,18 +36,14 @@ Vue.use(Particles, {
 ```html
 <template>
     <div id="app">
-        <vue-particles
-            id="tsparticles"
-            :particlesLoaded="particlesLoaded"
-            url="http://foo.bar/particles.json"
-        />
+        <vue-particles id="tsparticles" :particlesLoaded="particlesLoaded" url="http://foo.bar/particles.json" />
 
         <!-- or -->
 
         <vue-particles
-            id="tsparticles"
-            :particlesLoaded="particlesLoaded"
-            :options="{
+                id="tsparticles"
+                :particlesLoaded="particlesLoaded"
+                :options="{
                     background: {
                         color: {
                             value: '#0d47a1'
