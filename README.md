@@ -60,7 +60,6 @@ Vue.use(Particles, {
                                 enable: true,
                                 mode: 'repulse'
                             },
-                            resize: true
                         },
                         modes: {
                             bubble: {
@@ -92,7 +91,7 @@ Vue.use(Particles, {
                         move: {
                             direction: 'none',
                             enable: true,
-                            outMode: 'bounce',
+                            outModes: 'bounce',
                             random: false,
                             speed: 6,
                             straight: false
@@ -100,7 +99,6 @@ Vue.use(Particles, {
                         number: {
                             density: {
                                 enable: true,
-                                area: 800
                             },
                             value: 80
                         },
