@@ -75,17 +75,12 @@
           >. Have fun!
         </p>
       </div>
-      <Particles
-        id="tsparticles"
-        :options="options"
-        :particles-init="particlesInit"
-      />
+      <vue-particles id="tsparticles" :options="options" />
       <div class="flex justify-center pt-4 space-x-2">
         <a href="https://github.com/nuxt/nuxt.js" target="_blank">
           <svg
             class="w-6 h-6 text-gray-600 hover:text-gray-800 button--github"
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
             aria-hidden="true"
             role="img"
             width="32"
@@ -103,7 +98,6 @@
           <svg
             class="w-6 h-6 text-gray-600 hover:text-gray-800"
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
             aria-hidden="true"
             role="img"
             width="32"
@@ -123,8 +117,6 @@
 </template>
 
 <script>
-import { loadFull } from 'tsparticles'
-
 export default {
   name: 'NuxtTutorial',
   data() {
@@ -154,11 +146,6 @@ export default {
         },
       },
     }
-  },
-  methods: {
-    particlesInit: async (engine) => {
-      await loadFull(engine)
-    },
   },
 }
 </script>

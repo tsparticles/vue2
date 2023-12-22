@@ -1,6 +1,6 @@
 {
   "name": "nuxt2-demo",
-  "version": "1.2.0",
+  "version": "3.0.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -14,14 +14,14 @@
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
   "dependencies": {
+    "@tsparticles/engine": "^3.0.2",
+    "@tsparticles/vue2": "^3.0.0",
     "core-js": "^3.32.2",
     "nuxt": "^2.17.1",
-    "tsparticles": "^2.12.0",
-    "tsparticles-engine": "^2.12.0",
+    "tsparticles": "^3.0.2",
     "vue": "^2.7.14",
     "vue-server-renderer": "^2.7.14",
-    "vue-template-compiler": "^2.7.14",
-    "vue2-particles": "^2.12.0"
+    "vue-template-compiler": "^2.7.14"
   },
   "devDependencies": {
     "@babel/core": "^7.22.19",

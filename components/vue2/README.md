@@ -1,8 +1,8 @@
 [![banner](https://particles.js.org/images/banner3.png)](https://particles.js.org)
 
-# vue2-particles
+# @tsparticles/vue2
 
-[![npm](https://img.shields.io/npm/v/vue2-particles)](https://www.npmjs.com/package/vue2-particles) [![npm](https://img.shields.io/npm/dm/vue2-particles)](https://www.npmjs.com/package/vue2-particles) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
+[![npm](https://img.shields.io/npm/v/@tsparticles/vue2)](https://www.npmjs.com/package/@tsparticles/vue2) [![npm](https://img.shields.io/npm/dm/vue2-particles)](https://www.npmjs.com/package/vue2-particles) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
 
 Official [tsParticles](https://github.com/matteobruni/tsparticles) VueJS component
 
@@ -13,15 +13,22 @@ Official [tsParticles](https://github.com/matteobruni/tsparticles) VueJS compone
 ## Installation
 
 ```shell script
-yarn add vue2-particles
+yarn add @tsparticles/vue2
 ```
 
 ## Usage
 
 ```javascript
-import Particles from "vue2-particles";
+import Particles from "@tsparticles/vue2";
+//import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
+import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
 
-Vue.use(Particles);
+Vue.use(Particles, {
+    init: async engine => {
+        // await loadFull(engine);
+        await loadSlim(engine);
+    },
+});
 ```
 
 ### Demo config
@@ -29,18 +36,12 @@ Vue.use(Particles);
 ```html
 <template>
     <div id="app">
-        <vue-particles
-            id="tsparticles"
-            :particlesInit="particlesInit"
-            :particlesLoaded="particlesLoaded"
-            url="http://foo.bar/particles.json"
-        />
+        <vue-particles id="tsparticles" :particlesLoaded="particlesLoaded" url="http://foo.bar/particles.json" />
 
         <!-- or -->
 
         <vue-particles
             id="tsparticles"
-            :particlesInit="particlesInit"
             :particlesLoaded="particlesLoaded"
             :options="{
                     background: {
@@ -59,7 +60,6 @@ Vue.use(Particles);
                                 enable: true,
                                 mode: 'repulse'
                             },
-                            resize: true
                         },
                         modes: {
                             bubble: {
@@ -91,7 +91,7 @@ Vue.use(Particles);
                         move: {
                             direction: 'none',
                             enable: true,
-                            outMode: 'bounce',
+                            outModes: 'bounce',
                             random: false,
                             speed: 6,
                             straight: false
@@ -99,7 +99,6 @@ Vue.use(Particles);
                         number: {
                             density: {
                                 enable: true,
-                                area: 800
                             },
                             value: 80
                         },
@@ -121,14 +120,6 @@ Vue.use(Particles);
 ```
 
 ```javascript
-//import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
-import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
-
-const particlesInit = async engine => {
-    //await loadFull(engine);
-    await loadSlim(engine);
-};
-
 const particlesLoaded = async container => {
     console.log("Particles container loaded", container);
 };
@@ -140,7 +131,7 @@ If TypeScript returns error while importing/using Particles plugin try adding th
 code:
 
 ```typescript
-declare module "vue2-particles";
+declare module "@tsparticles/vue2";
 ```
 
 ## Demos
