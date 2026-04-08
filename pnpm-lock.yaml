@@ -197,8 +197,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1(tslib@2.6.2)(typescript@5.2.2)
       rollup-plugin-typescript2:
-        specifier: ^0.35.0
-        version: 0.35.0(rollup@2.79.1)(typescript@5.2.2)
+        specifier: ^0.37.0
+        version: 0.37.0(rollup@2.79.1)(typescript@5.2.2)
       rollup-plugin-vue:
         specifier: ^5.1.9
         version: 5.1.9(postcss@8.4.29)(pug@3.0.2)(vue-template-compiler@2.7.14)
@@ -279,8 +279,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1(tslib@2.6.2)(typescript@5.2.2)
       rollup-plugin-typescript2:
-        specifier: ^0.35.0
-        version: 0.35.0(rollup@2.79.1)(typescript@5.2.2)
+        specifier: ^0.37.0
+        version: 0.37.0(rollup@2.79.1)(typescript@5.2.2)
       rollup-plugin-vue:
         specifier: ^5.1.9
         version: 5.1.9(postcss@8.4.29)(pug@3.0.2)(vue-template-compiler@2.7.14)
@@ -9994,7 +9994,7 @@ packages:
     resolution: {integrity: sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==}
     engines: {node: '>= 4.0'}
     os: [darwin]
-    deprecated: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
+    deprecated: Upgrade to fsevents v2 to mitigate potential security issues
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -11974,11 +11974,6 @@ packages:
     dependencies:
       tslib: 2.6.2
 
-  /lru-cache@10.0.0:
-    resolution: {integrity: sha512-svTf/fzsKHffP42sujkO/Rjs37BCIsQVRCeNYIm9WN8rgT7ffoUnRtZCqU+6BqcSBdv8gwJeTz8knJpgACeQMw==}
-    engines: {node: 14 || >=16.14}
-    dev: false
-
   /lru-cache@10.1.0:
     resolution: {integrity: sha512-/1clY/ui8CzjKFyjdvwPWJUYKiFVXG2I2cY0ssG7h4+hwk+XOIX7ZSG9Q7TW8TW3Kp3BUSqgFWBLgL4PJ+Blag==}
     engines: {node: 14 || >=16.14}
@@ -13523,7 +13518,7 @@ packages:
     resolution: {integrity: sha512-tZFEaRQbMLjwrsmidsGJ6wDMv0iazJWk6SfIKnY4Xru8auXgmJkOBa5DUbYFcFD2Rzk2+KDlIiF0GVXNCbgC7g==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
-      lru-cache: 10.0.0
+      lru-cache: 10.1.0
       minipass: 5.0.0
     dev: false
 
@@ -13531,7 +13526,7 @@ packages:
     resolution: {integrity: sha512-MkhCqzzBEpPvxxQ71Md0b1Kk51W01lrYvlMzSUaIzNsODdd7mqhiimSZlr+VegAz5Z6Vzt9Xg2ttE//XBhH3EQ==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
-      lru-cache: 10.0.0
+      lru-cache: 10.1.0
       minipass: 7.0.3
     dev: false
 
@@ -15478,8 +15473,8 @@ packages:
       terser: 5.16.1
     dev: true
 
-  /rollup-plugin-typescript2@0.35.0(rollup@2.79.1)(typescript@5.2.2):
-    resolution: {integrity: sha512-szcIO9hPUx3PhQl91u4pfNAH2EKbtrXaES+m163xQVE5O1CC0ea6YZV/5woiDDW3CR9jF2CszPrKN+AFiND0bg==}
+  /rollup-plugin-typescript2@0.37.0(rollup@2.79.1)(typescript@5.2.2):
+    resolution: {integrity: sha512-S1r/4Ufi13Yg/chPlh4iSHWq2Zs/sIAodW5SKUoCQfy/DEQhkS2XRFEtv+NRq3iBO4WHHfqKtDPOC5lJTYm7OQ==}
     peerDependencies:
       rollup: '>=1.26.3'
       typescript: '>=2.4.0'
@@ -15488,7 +15483,7 @@ packages:
       find-cache-dir: 3.3.2
       fs-extra: 10.1.0
       rollup: 2.79.1
-      semver: 7.5.3
+      semver: 7.5.4
       tslib: 2.6.2
       typescript: 5.2.2
     dev: true
