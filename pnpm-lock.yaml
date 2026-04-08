@@ -179,8 +179,8 @@ importers:
         specifier: ^9.0.0
         version: 9.0.0(eslint@8.49.0)
       fork-ts-checker-webpack-plugin:
-        specifier: ^8.0.0
-        version: 8.0.0(typescript@5.2.2)(webpack@4.46.0)
+        specifier: ^9.0.0
+        version: 9.1.0(typescript@5.2.2)(webpack@4.46.0)
       postcss:
         specifier: ^8.4.29
         version: 8.4.29
@@ -1838,7 +1838,7 @@ packages:
     resolution: {integrity: sha512-y6LPR+wpM2I3qJrsheCTwhIinzkETbplIgPBbwvqPKc+uljeA5gP+3nP8irdYt1mjQaDnlIcG+dw8OjAco4GXw==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/code-frame': 7.22.5
+      '@babel/code-frame': 7.22.13
       '@babel/generator': 7.22.9
       '@babel/helper-environment-visitor': 7.22.5
       '@babel/helper-function-name': 7.22.5
@@ -4340,7 +4340,7 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
       '@tufjs/canonical-json': 1.0.0
-      minimatch: 9.0.2
+      minimatch: 9.0.3
     dev: false
 
   /@tufjs/models@2.0.0:
@@ -6871,6 +6871,13 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
+  /chokidar@4.0.3:
+    resolution: {integrity: sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==}
+    engines: {node: '>= 14.16.0'}
+    dependencies:
+      readdirp: 4.1.2
+    dev: true
+
   /chownr@1.1.4:
     resolution: {integrity: sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==}
 
@@ -7770,7 +7777,6 @@ packages:
       parse-json: 5.2.0
       path-type: 4.0.0
       typescript: 5.2.2
-    dev: false
 
   /crc@4.3.2:
     resolution: {integrity: sha512-uGDHf4KLLh2zsHa8D8hIQ1H/HtFQhyHrc0uhHBcoKGol/Xnb+MPYfUMw7cvON6ze/GUESTudKayDcJC5HnJv1A==}
@@ -9863,24 +9869,24 @@ packages:
       webpack: 5.75.0
     dev: true
 
-  /fork-ts-checker-webpack-plugin@8.0.0(typescript@5.2.2)(webpack@4.46.0):
-    resolution: {integrity: sha512-mX3qW3idpueT2klaQXBzrIM/pHw+T0B/V9KHEvNrqijTq9NFnMZU6oreVxDYcf33P8a5cW+67PjodNHthGnNVg==}
-    engines: {node: '>=12.13.0', yarn: '>=1.0.0'}
+  /fork-ts-checker-webpack-plugin@9.1.0(typescript@5.2.2)(webpack@4.46.0):
+    resolution: {integrity: sha512-mpafl89VFPJmhnJ1ssH+8wmM2b50n+Rew5x42NeI2U78aRWgtkEtGmctp7iT16UjquJTjorEmIfESj3DxdW84Q==}
+    engines: {node: '>=14.21.3'}
     peerDependencies:
       typescript: '>3.6.0'
       webpack: ^5.11.0
     dependencies:
-      '@babel/code-frame': 7.22.5
+      '@babel/code-frame': 7.22.13
       chalk: 4.1.2
-      chokidar: 3.5.3
-      cosmiconfig: 7.1.0
+      chokidar: 4.0.3
+      cosmiconfig: 8.3.6(typescript@5.2.2)
       deepmerge: 4.2.2
       fs-extra: 10.1.0
       memfs: 3.4.12
       minimatch: 3.1.2
       node-abort-controller: 3.1.1
       schema-utils: 3.1.1
-      semver: 7.5.3
+      semver: 7.5.4
       tapable: 2.2.1
       typescript: 5.2.2
       webpack: 4.46.0
@@ -9994,7 +10000,7 @@ packages:
     resolution: {integrity: sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==}
     engines: {node: '>= 4.0'}
     os: [darwin]
-    deprecated: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
+    deprecated: Upgrade to fsevents v2 to mitigate potential security issues
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -15227,6 +15233,11 @@ packages:
     engines: {node: '>=8.10.0'}
     dependencies:
       picomatch: 2.3.1
+
+  /readdirp@4.1.2:
+    resolution: {integrity: sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==}
+    engines: {node: '>= 14.18.0'}
+    dev: true
 
   /redent@3.0.0:
     resolution: {integrity: sha512-6tDA8g98We0zd0GvVeMT9arEOnTw9qM03L9cJXaCjrip1OO764RDBLBfrB4cwzNGDj5OA5ioymC9GkizgWJDUg==}
