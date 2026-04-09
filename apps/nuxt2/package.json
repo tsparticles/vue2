@@ -14,11 +14,11 @@
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
   "dependencies": {
-    "@tsparticles/engine": "^3.0.2",
+    "@tsparticles/engine": "^3.9.1",
     "@tsparticles/vue2": "^3.0.0",
     "core-js": "^3.32.2",
     "nuxt": "^2.17.1",
-    "tsparticles": "^3.0.2",
+    "tsparticles": "^3.9.1",
     "vue": "^2.7.14",
     "vue-server-renderer": "^2.7.14",
     "vue-template-compiler": "^2.7.14"

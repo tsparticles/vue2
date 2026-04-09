@@ -134,6 +134,19 @@ code:
 declare module "@tsparticles/vue2";
 ```
 
+### Styling the particles container
+
+`vue-particles` accepts `class` and `style` attributes on its root element:
+
+```html
+<vue-particles
+    id="tsparticles"
+    :options="options"
+    class="demo-particles"
+    :style="{ position: 'fixed', inset: 0, zIndex: -1 }"
+/>
+```
+
 ## Demos
 
 The demo website is [here](https://particles.js.org)

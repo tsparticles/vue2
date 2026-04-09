@@ -1,7 +1,12 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png"/>
-    <vue-particles id="tsparticles" :options="options"/>
+    <vue-particles
+      id="tsparticles"
+      :options="options"
+      class="demo-particles"
+      :style="{ position: 'fixed', inset: 0, zIndex: -1 }"
+    />
   </div>
 </template>
 
