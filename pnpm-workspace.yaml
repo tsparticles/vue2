@@ -1,3 +1,10 @@
 packages:
   - 'apps/*'
   - 'components/*'
+allowBuilds:
+  '@parcel/watcher': true
+  '@tsparticles/engine': true
+  core-js: true
+  nuxt: true
+  nx: true
+  unrs-resolver: true
